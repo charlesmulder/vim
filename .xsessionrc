@@ -1,0 +1,6 @@
+# xrandr --output VGA-1 --off --output LVDS-1 --off --output HDMI-3 --primary --mode 1440x900 --pos 0x0 --rotate normal --output HDMI-2 --off --output HDMI-1 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off
+# xsetroot -solid "#000000"
+# exec nitrogen --restore &
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
