@@ -1,11 +1,17 @@
 # Personal vim config
 
+[Vundle]()https://github.com/VundleVim/Vundle.vim is installed as a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
 ## Install
 
 ```bash
 ln -s $(pwd)/.vimrc ~/.vimrc
 ln -s $(pwd)/.vim ~/.vim
 ln -s $(pwd)/.xsessionrc ~/..xsessionrc
+```
+
+```sh
+# TODO: clone or update Vundle
 ```
 
 Vim colon command

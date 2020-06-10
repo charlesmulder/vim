@@ -1,7 +1,7 @@
 " Auto expand tabs to spaces (use space rather than tab)
 setlocal expandtab
-setlocal shiftwidth=4
-setlocal tabstop=4
+setlocal shiftwidth=2
+setlocal tabstop=2
 
 :imap cl<TAB> console.log();<left><left>
 
