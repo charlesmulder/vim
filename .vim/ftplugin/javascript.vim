@@ -8,3 +8,9 @@ setlocal tabstop=2
 "autocmd BufWritePost,FileWritePost *.js !jslint --color --passfail <afile>
 setlocal makeprg=jslint\ --color\ --passfail\ --white\ %
 "autocmd BufRead,BufNewFile *.js,*.json setlocal makeprg=jslint\ --vim\ \%
+"
+
+setlocal noexpandtab 
+setlocal tabstop=4
+setlocal softtabstop=4
+setlocal shiftwidth=4

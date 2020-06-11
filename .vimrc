@@ -47,8 +47,9 @@ set nofoldenable        "dont fold by default
 set foldignore=
 
 "default indenting"
-set expandtab
+set noexpandtab
 set shiftwidth=4
+set softtabstop=4
 set tabstop=4
   
 "show full path to open file"
