@@ -41,7 +41,7 @@ syntax on
 "folding"
 set foldmethod=indent   "fold based on indent
 "set foldcolumn=1
-"set foldnestmax=1 "deepest fold is 2 levelt"
+set foldnestmax=5 "deepest fold is 2 levelt"
 set nofoldenable        "dont fold by default
 "set foldlevel=1
 set foldignore=
@@ -66,7 +66,7 @@ let g:netrw_browse_split = 3
 "set tags=tags;/"
 
 "http://joshorourke.com/2012/06/15/vim-tip-how-to-display-whitespace-characters"
-:set listchars=eol:$,nbsp:_,tab:>-,trail:~,extends:>,precedes:<
+set listchars=eol:$,nbsp:_,tab:>-,trail:~,extends:>,precedes:<
 
 "hightlight search"
 "set hlsearch
