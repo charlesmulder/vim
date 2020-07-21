@@ -6,6 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'sheerun/vim-polyglot'
+Plugin 'vim-syntastic/syntastic'
 call vundle#end()
 
 filetype plugin indent on    " required
@@ -68,6 +69,16 @@ let g:netrw_browse_split = 3
 
 "http://joshorourke.com/2012/06/15/vim-tip-how-to-display-whitespace-characters"
 set listchars=eol:$,nbsp:_,tab:>-,trail:~,extends:>,precedes:<
+
+"syntastic"
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 "hightlight search"
 "set hlsearch

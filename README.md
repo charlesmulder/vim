@@ -16,7 +16,7 @@ ln -s $(pwd)/.xsessionrc ~/..xsessionrc
 
 Vim colon command
 ```vim
-:PlugInstall
+:PluginInstall
 ```
 
 ## Resources

@@ -10,7 +10,7 @@ setlocal makeprg=jslint\ --color\ --passfail\ --white\ %
 "autocmd BufRead,BufNewFile *.js,*.json setlocal makeprg=jslint\ --vim\ \%
 "
 
-setlocal noexpandtab 
-setlocal tabstop=4
-setlocal softtabstop=4
-setlocal shiftwidth=4
+setlocal expandtab 
+setlocal tabstop=2
+setlocal softtabstop=2
+setlocal shiftwidth=2
