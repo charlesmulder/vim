@@ -44,7 +44,7 @@ set foldmethod=indent   "fold based on indent
 "set foldcolumn=1
 set foldnestmax=5 "deepest fold is 2 levelt"
 set nofoldenable        "dont fold by default
-"set foldlevel=1
+set foldlevel=1
 set foldignore=
 
 "default indenting"
