@@ -1,26 +1,45 @@
-# Personal vim config
-
-[Vundle]()https://github.com/VundleVim/Vundle.vim is installed as a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+# My Home Folder
 
 ## Install
 
 ```bash
-ln -s $(pwd)/.vimrc ~/.vimrc
-ln -s $(pwd)/.vim ~/.vim
-ln -s $(pwd)/.xsessionrc ~/..xsessionrc
-```
-
-```sh
-# TODO: clone or update Vundle
+$ git init
+$ git remote add origin git@bitbucket.org:charlesmulder/home.git
+$ git fetch
+$ git checkout -t origin/master
+$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+$ vim
 ```
 
 Vim colon command
 ```vim
-:PluginInstall
+:PlugInstall
+```
+
+## i3 config
+
+```sh
+# requires nitrogen and dropbox
+./config/i3/config
+.xsessionrc # contains xrandr command 
 ```
 
 ## Resources
 * [Vim-Plug](https://github.com/junegunn/vim-plug)
+
+## Troubleshooting
+
+```sh
+# Slow wifi network on Linux laptop
+vim /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+
+wifi.powersave = 2
+
+sudo systemctl restart NetworkManager
+
+# https://rolandschnabel.de/blog/2019/05/slow-wifi-network-on-linux-laptop/
+```
+
 
 ## Notes
 
@@ -32,13 +51,24 @@ Vim colon command
 * [Debian: WIFI howto](https://wiki.debian.org/WiFi/HowToUse#Command_Line)
 
 
-## Preferred apps
+### Dropbox
 
-- [Redshift]()
-- [Sirikali]()
-- [KeepassXC]()
-- [Anki]()
-- [Hamster]()
+Best to install [dropbox python script](https://www.dropbox.com/download?dl=packages/dropbox.py) to _/usr/local/bin_ then execute 
 
+```
+dropbox start -i # make sure firefox is installed
+```
+
+### Redshift
+
+### Sirikali
+
+### KeepassXC
+
+### Anki
+
+### Calibre
+
+### Hamster
 
 
