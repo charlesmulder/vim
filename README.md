@@ -16,14 +16,6 @@ Vim colon command
 :PlugInstall
 ```
 
-## i3 config
-
-```sh
-# requires nitrogen and dropbox
-./config/i3/config
-.xsessionrc # contains xrandr command 
-```
-
 ## Resources
 * [Vim-Plug](https://github.com/junegunn/vim-plug)
 
@@ -59,16 +51,18 @@ Best to install [dropbox python script](https://www.dropbox.com/download?dl=pack
 dropbox start -i # make sure firefox is installed
 ```
 
-### Redshift
+## Applications
 
-### Sirikali
-
-### KeepassXC
-
-### Anki
-
-### Calibre
-
-### Hamster
+- [Twine](https://twinery.org/)
+- [Tiled](https://www.mapeditor.org/)
+- [Godot](https://godotengine.org/)
+- [Aseprite](https://www.aseprite.org/)
+- [Texture Packer](https://www.codeandweb.com/texturepacker)
+- [Anki](https://apps.ankiweb.net/)
+- [Hamster](http://projecthamster.org/)
+- [Sirikali](https://mhogomchungu.github.io/sirikali/)
+- [Redshift](http://jonls.dk/redshift/)
+- [KeepassXC](https://keepassxc.org/)
+- [Ardour](https://ardour.org/)
 
 
