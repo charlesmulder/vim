@@ -16,6 +16,16 @@ Vim colon command
 :PlugInstall
 ```
 
+```
+# ~/.config/lxsession/Lubuntu/autostart
+# numlock on
+numlockx on
+# disable touch pad
+syndaemon -d -t
+# autostart sirikali
+/usr/bin/sirikali -d
+```
+
 ## Resources
 * [Vim-Plug](https://github.com/junegunn/vim-plug)
 
