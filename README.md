@@ -1,5 +1,13 @@
 # My Home Folder
 
+## Symlink
+
+```sh
+ln -sf $(pwd/.vim )~/.vim
+ln -sf $(pwd)/.vimrc ~/.vimrc 
+ln -sf $(pwd)/.xsessionrc ~/.xsessionrc
+```
+
 ## Install
 
 ```bash
