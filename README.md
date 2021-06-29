@@ -12,7 +12,7 @@ ln -sf $(pwd)/.xsessionrc ~/.xsessionrc
 
 ```bash
 $ git init
-$ git remote add origin git@bitbucket.org:charlesmulder/home.git
+$ git remote add origin git@bitbucket.org:charlesmulder/vim.git
 $ git fetch
 $ git checkout -t origin/master
 $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -38,6 +38,8 @@ syndaemon -d -t
 * [Vim-Plug](https://github.com/junegunn/vim-plug)
 
 ## Troubleshooting
+
+Wireless driver is [Intel® Centrino® Ultimate-N 6300](https://www.intel.com/content/www/us/en/support/articles/000005511/wireless.html)
 
 ```sh
 # Slow wifi network on Linux laptop
